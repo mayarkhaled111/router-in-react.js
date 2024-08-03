@@ -9,7 +9,7 @@ export default function Contact() {
   return (
     <div className="contact mt-10">
       <div className="container">
-        <h1 className='text-center'>CONTACT COMPONENT</h1>
+        <h1 className='text-center md:text-5xl text-2xl'>CONTACT COMPONENT</h1>
         <div className='shape m-auto flex justify-center items-center my-3'>
           <div className='h-1 w-20'></div>
           <i className="fa-solid fa-star mx-4"></i>

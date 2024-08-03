@@ -21,15 +21,15 @@ export default function Portfolio() {
   return (
     <div className="portfolio py-10">
       <div className="container">
-        <h1 className='text-center'>PORTFOLIO COMPONENT</h1>
+        <h1 className='text-center md:text-5xl text-2xl'>PORTFOLIO COMPONENT</h1>
         <div className='shape m-auto flex justify-center items-center my-3'>
           <div className='h-1 w-20'></div>
           <i className="fa-solid fa-star mx-4"></i>
           <div className='h-1 w-20'></div>
         </div>
-        <div className="port w-full flex flex-wrap">
+        <div className="port w-full grid md:grid-cols-3 gap-3 ">
           {[port1, port2, port3, port1, port2, port3].map((port, index) => (
-            <div className="w-1/3 p-4" key={index} onClick={() => handleImageClick(port)}>
+            <div className="p-4" key={index} onClick={() => handleImageClick(port)}>
               <div className='image relative '>
                 <div className="layout absolute flex justify-center items-center rounded-lg top-0 left-0 h-full w-full">
                   <i className="fa-solid fa-plus fa-6x" style={{ color: '#ffffff' }} />
