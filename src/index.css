@@ -47,7 +47,7 @@ body{
 /* footer styling */
 .footer{
   background-color: #2C3E50;
-  height: 270px;
+  min-height: 270px;
   word-spacing: 4px;
 }
 .footer h1{
